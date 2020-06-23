@@ -1,3 +1,3 @@
-# typescript-practice
+# typescript
 
-##Practicing Typescript
+Practicing Typescript with simple online examples. 
