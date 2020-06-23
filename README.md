@@ -1,0 +1,3 @@
+# typescript-practice
+
+##Practicing Typescript
