@@ -1,26 +1,11 @@
-function combine(
-  input1: number | string,
-  input2: number | string,
-  resultType: string
-) {
-  let result;
-  if (typeof input1 === "number" && typeof input2 === "number") {
-    result = input1 + input2;
-  } else {
-    result = input1.toString() + input2.toString();
-  }
-  if (resultType === "as-number") {
-    return +result;
-  } else {
-    return result.toString();
-  }
+function add(n1: number, n2: number): number {
+  return n1 + n2;
 }
 
-const combinedAges = combine(30, 26, "as-number");
-console.log(combinedAges);
+function printResult(num: number): void {
+  console.log("Result: " + num);
+}
 
-const combinedStringAges = combine("30", "26", "as-number");
-console.log(combinedStringAges);
+printResult(add(5, 12)); 
 
-const combinedName = combine("max", "ana", "as-text");
-console.log(combinedName);
+let someValue: undefined;
